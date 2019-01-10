@@ -8,16 +8,21 @@ button {
 	height: 40px;
 	margin: 0 10%;
     float: left;
-    
+    font-size: 1pc;
+    font-style: bold;
 }
 
 button.answerchoice {
     display: none;
     font-style: bold;
+    opacity: 0.8;
+    color: black;
+    font-size: 1pc;
+
 }
 
 button:hover {
-	background-color: blue;
+	background-color:black;
 	color: white;
 }
 
@@ -35,8 +40,12 @@ h1{
     color:white;
     font-style: bold;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.7;
     font-size: 5pc;
+    width: 80%;
+    margin: 1% 10% 0 10%
+    
+
 } 
 
 h2, h3, .question {
@@ -44,6 +53,8 @@ h2, h3, .question {
     color:white;
     font-style: bold;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.7;
     font-size: 2pc;
+    width: 80%;
+    margin: 1% 10% 0 10%
 }

@@ -1,0 +1,49 @@
+body {
+    background-image: url("xmen.jpg");
+   
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+    float: left;
+    
+}
+
+button.answerchoice {
+    display: none;
+    font-style: bold;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-style: bold;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 5pc;
+} 
+
+h2, h3, .question {
+    text-align: center;
+    color:white;
+    font-style: bold;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 2pc;
+}
